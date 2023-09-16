@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    background-color: #374151;
+}
+
+.main{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@font-face{
+    font-family: counter;
+    src: url(count.ttf);
+}
+
+.home-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    height: 150px;
+    width: 200px;
+    color: #F94F6D;
+    background-color: #080001;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: counter;
+    font-size: 40px;
+}
+
+.increment-btns{
+    display: flex;
+    flex-direction: row;
+}
+.increment-btn{
+    font-family: counter;
+    border: 1px solid white;
+    padding: 0px 15px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.increment-btn:hover{
+    cursor: pointer;
+}
+
+.new-game{
+    height: 75px;
+    width: 150px;
+    border: 1px solid white;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: counter;
+}
+
+.new-game:hover{
+    cursor: pointer;
+}
